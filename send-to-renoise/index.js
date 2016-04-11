@@ -37,7 +37,7 @@ switch (process.argv[2]){
     msg = {
       address: "/test",
       args: {
-        type:"d",
+        type:"i",
         value:48
       }
     }
@@ -46,7 +46,7 @@ switch (process.argv[2]){
     msg = {
       address: "/test",
       args: [{
-        type:"d",
+        type:"i",
         value:48
       },{
         type:"f",
@@ -63,6 +63,9 @@ switch (process.argv[2]){
       },{
         type:"s",
         value:"bar"
+      },{
+        type:"s",
+        value:"baz!"
       }],
     }
     break;
