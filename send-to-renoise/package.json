@@ -3,7 +3,7 @@
     "main": "index.js",
     "version": "0.1.1",
     "description": "Example of how to send messages to Renoise from a Node.js app.",
-    "author": "Bjørn Næsby",
+    "author": "BjÃ¸rn NÃ¦sby",
     "repository": {
         "type": "git",
         "url": "git://github.com/bjorn-nesby/osc.js-examples.git"
@@ -21,9 +21,7 @@
     ],
     "readmeFilename": "README.md",
     "dependencies": {
-        "osc": "2.0.0"
-    },
-    "engines": {
-        "node": ">=0.10.x"
+        "osc": "2.2.0"
     }
+
 }
